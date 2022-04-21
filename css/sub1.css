@@ -1,0 +1,51 @@
+section {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+#album h2 {
+    margin-top: 20px;
+    font-size: 100px;
+    font-family: 'Dharma Gothic C Heavy';
+}
+#album img{
+    margin-top: -50.1px;
+    width: 700px;
+}
+#album table {
+    border-top: 3px solid rgba(0, 49, 63, 0.511);
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#album td {
+    padding: 20px 10px 0 10px;
+}
+
+h3 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#people {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#people h2 {
+    font-family: 'Dharma Gothic C Heavy';
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+#people table {
+    border-top: 3px solid rgba(0, 49, 63, 0.511);
+    width: 100%;
+    font-family: 'Helvetica75';
+}
+#people p {
+    font-style: italic;
+}
+#people img {
+    width: 200px;
+    border-radius: 50%;
+    padding: 30px 0;
+}

@@ -1,0 +1,61 @@
+body {
+    background-image: url("../img/cover.gif");
+    background-repeat: no-repeat;
+    background-position: 50% -9%;
+    background-size: 700px;
+    color: white;
+    background-color: black;
+}
+
+#main {
+    margin-left: 110px;
+    position: absolute;
+    width: 250px;
+    text-align: center;
+}
+
+#main :nth-child(1) {
+    margin-top: 5px;
+    width: 250px;
+}
+
+#main div {
+    width: 200px;
+    margin-top: 50px;
+}
+
+#main p {
+    font-family: 'Helvetica75';
+    font-size: 13px;
+    color: rgb(165, 165, 165);
+}
+#main p>span {
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 19px;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    width: 98%;
+    bottom: 0;
+    padding: 0 10px 10px 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(99, 99, 99);
+    font-size: 12px;
+}
+
+address {
+    display: flex;
+    justify-content: space-between;
+}
+
+address li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+address ul {
+    display: flex;
+}
